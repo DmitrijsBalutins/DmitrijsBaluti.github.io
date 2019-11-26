@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+	<link href="reset.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .button {
+            background-color: #1c87c9;
+            border: none;
+            color: white;
+            padding: 20px 34px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<h1>G R U N T S</h1>
+<h4>OSDM no Latvijas</h4>
+<h5>OSDM from Latvia</h5>
+<div class="menu">
+    <a href="index.html" class="active">About</a>
+    <a href="music.html">Music</a>
+    <a href="merch.html">Merch</a>
+    <a href="contacts.html">Contacts</a>
+</div>
+<div class="row">
+    <div class="column1">
+        <form class="example" action="action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <div id="googleMap" style="width:100%;height:200px;"></div>
+        <script>
+            function myMap() {
+                var mapProp= {
+                    center:new google.maps.LatLng(56.9496,24.1052),
+                    zoom:5,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+        <h2>Riga, LV</h2>
+        <h3>.....</h3>
+        <h3>.....</h3>
+        <ul class="a">
+            <li>Pirmsakums</li>
+        </ul>
+        <audio controls>
+            <source src="" type="audio/ogg">
+            <source src="" type="audio/mpeg">
+        </audio>
+        <h3>.....</h3>
+        <h3>.....</h3>
+        <h3>.....</h3>
+        <h6>Follow us here:</h6>
+        <h3>.....</h3>
+        <a href ="https://www.facebook.com/Gruntsdeath/">Facebook</a>
+        <h3>.....</h3>
+        <a href ="https://www.instagram.com/grunts_band/">Instagram</a>
+    </div>
+    <div class="column2">
+        <div class="bilde1">
+            <img src="images/IMG_20191118_222935.png" height="198" width="227"/>
+        </div>
+        <form>
+            <button type="submit" formaction="">Press here!</button>
+        </form>
+        <h7>
+            Koncerts "Republika"
+            (8.11.19)
+        </h7>
+    </div>
+    <div class="column3">
+        <div class="bilde2">
+            <img src="images/gruntinieks.jpg" height="227" width="198"/>
+        </div>
+        <form>
+            <button type="submit" formaction="">Press here!</button>
+        </form>
+        <h8>
+            DEBUTE E.P. RECORDNG
+        </h8>
+    </div>
+    <div class="column4">
+        <div class="bilde3">
+            <img src="images/IMG_20191118_222947.png" height="198" width="227"/>
+        </div>
+        <form>
+            <button type="submit" formaction="">Press here!</button>
+        </form>
+        <h9>
+            Koncerts "Melna Piektdiena" (13.10.19)
+        </h9>
+    </div>
+</div>
+<div class="footer">
+    <div class="apaksha">
+        <p>Upcoming shows:</p>
+        <p>MP (13.12.19)</p>
+    </div>
+</div>
+</body>
+</html>
